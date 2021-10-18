@@ -41,7 +41,7 @@ int main()
 
     int x=0, pix=1;
     int start=0, end=width-1;
-    int pix_val=7;//pixel del centro de la matriz de 11x11
+    int pix_val=7;//pixel del centro de la matriz de 13x13
 
     const double startTime = omp_get_wtime();
     #pragma omp parallel
