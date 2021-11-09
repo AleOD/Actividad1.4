@@ -7,8 +7,6 @@ int cont = 0;
 int input;
 void main()
 {	
-	//scanf("%i", &input);
-	//do{
 		NUM_THREADS = cont;
 	    int i, nthreads;
 	    double pi, sum[NUM_THREADS];
@@ -36,5 +34,4 @@ void main()
 	    printf("pi = (%lf)\n", pi);
 	    printf("%lf \n", (endTime - startTime));
 	    cont++;
-		//}while(cont < input);
 }
